@@ -1,0 +1,4 @@
+make command should build 2 binaries.
+
+Call "./minisat_simp -dimacs=simp.dimacs my.dimacs" to simplify "my.dimacs" and store in "simp.dimacs"
+Call "cat simp.dimacs | ./Simplify" to perform equivalent variable substitution
